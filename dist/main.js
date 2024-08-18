@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});const _hello=require("$app/libs/hello");(0,_hello.hi)();
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9tYWluLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGhpIH0gZnJvbSBcIiRhcHAvbGlicy9oZWxsb1wiO1xyXG5cclxuaGkoKTtcclxuIl0sIm5hbWVzIjpbImhpIl0sIm1hcHBpbmdzIjoiMkZBQW1CLG1CQUVuQkEsR0FBQUEsU0FBRSJ9

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});Object.defineProperty(exports,"hi",{enumerable:true,get:function(){return hi}});function hi(){console.log("hi")}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9saWJzL2hlbGxvLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBmdW5jdGlvbiBoaSgpe1xyXG4gIGNvbnNvbGUubG9nKCdoaScpO1xyXG59XHJcbiJdLCJuYW1lcyI6WyJoaSIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiJvR0FBZ0JBLDRDQUFBQSxNQUFULFNBQVNBLEtBQ2RDLFFBQVFDLEdBQUcsQ0FBQyxLQUNkIn0=

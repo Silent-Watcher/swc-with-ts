@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "swc": false
+  },
+
+  "compilerOptions": {
+    "lib": ["ESNext" , "DOM"],
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "noEmit": true,
+
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "paths": {
+      "$app/*" : ["./src/*"]
+    }
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules/"]
+}

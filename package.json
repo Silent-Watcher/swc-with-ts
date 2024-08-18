@@ -1,0 +1,23 @@
+{
+	"engineStrict": true,
+	"engines": {
+		"node": ">=20.16.0"
+	},
+	"scripts": {
+		"serve": "ts-node-dev -r tsconfig-paths/register src/main.ts",
+		"build" : "rimraf ./dist && npx swc ./src --out-dir ./dist --strip-leading-paths",
+		"prestart": "npm run build",
+		"start": "node -r ts-node/register/transpile-only -r tsconfig-paths/register dist/main.js"
+	},
+	"devDependencies": {
+		"@swc/cli": "^0.4.0",
+		"@swc/core": "^1.7.11",
+		"rimraf": "^6.0.1",
+		"ts-node-dev": "^2.0.0",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.5.4"
+	},
+	"dependencies": {
+		"ts-node": "^10.9.2"
+	}
+}
